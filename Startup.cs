@@ -1,4 +1,6 @@
+using Autofac;
 using BethanysPie.Models;
+using BethanysPie.RepositoryRegistrationModule;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
@@ -36,11 +38,12 @@ namespace BethanysPie
             services.AddDefaultIdentity<IdentityUser>().AddEntityFrameworkStores<AppDbContext>();
 
 
-            services.AddScoped<IPieRepository, PieRepository>();
-            services.AddScoped<ICategoryRepository, CategoryRepository>();
+#region builder
+            //services.AddScoped<IPieRepository, PieRepository>();
+            //services.AddScoped<ICategoryRepository, CategoryRepository>();
 
-            services.AddScoped<IOrderRepository, OrderRepository>();
-
+            //services.AddScoped<IOrderRepository, OrderRepository>();
+#endregion
 
             //services.AddTransient();
             //Services.AddSingleton();
@@ -56,6 +59,12 @@ namespace BethanysPie
 
             //Register our own Services
             //services.AddScoped<IPieRepository, MockPieRepository>();
+        }
+
+
+        public void ConfigureContainer(ContainerBuilder builder)
+        {
+            builder.RegisterModule<RegistrationModule>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

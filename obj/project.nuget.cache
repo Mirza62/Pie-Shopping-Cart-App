@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "j2mtSAOJwnS/hlpZ/GQSwDybiBo50/oNOSTMn/a6V+dOVfTp0n4MSLmtXid90bRPMzm/JICh3mi++q63V5D9mg==",
+  "dgSpecHash": "1Y/EZiSDIdNjrWrpDvlNS5oEa74zgBBJwgva3T/QIuCYChz0+XidStuMzgmvyE/jk3JGYnQzEIlCVspIMGZk6Q==",
   "success": true,
   "projectFilePath": "D:\\Github\\BethanysPie\\BethanysPie.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\mirza\\.nuget\\packages\\autofac\\6.2.0\\autofac.6.2.0.nupkg.sha512",
+    "C:\\Users\\mirza\\.nuget\\packages\\autofac.extensions.dependencyinjection\\7.1.0\\autofac.extensions.dependencyinjection.7.1.0.nupkg.sha512",
     "C:\\Users\\mirza\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\3.1.15\\microsoft.aspnetcore.cryptography.internal.3.1.15.nupkg.sha512",
     "C:\\Users\\mirza\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\3.1.15\\microsoft.aspnetcore.cryptography.keyderivation.3.1.15.nupkg.sha512",
     "C:\\Users\\mirza\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",

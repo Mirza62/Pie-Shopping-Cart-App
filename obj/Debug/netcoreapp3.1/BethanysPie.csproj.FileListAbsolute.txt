@@ -311,3 +311,5 @@ D:\Github\BethanysPie\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_Valida
 D:\Github\BethanysPie\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ViewImports.cshtml.g.cs
 D:\Github\BethanysPie\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ViewStart.cshtml.g.cs
 D:\Github\BethanysPie\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_LoginPartial.cshtml.g.cs
+D:\Github\BethanysPie\bin\Debug\netcoreapp3.1\Autofac.dll
+D:\Github\BethanysPie\bin\Debug\netcoreapp3.1\Autofac.Extensions.DependencyInjection.dll
